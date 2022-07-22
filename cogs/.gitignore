@@ -1,7 +1,0 @@
-__pycache__/
-.venv
-.vscode/
-.tests/
-*/build/
-*/dist/
-*.egg-info/

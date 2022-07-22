@@ -1,0 +1,7 @@
+[[embeds]]
+[embeds.embed_id]
+description = "This is an example embed."
+
+[[channel_embeds]]
+[channel_embeds.0000000000000000]
+description = "This is an example channel embed."

@@ -1,1 +1,2 @@
 git+https://github.com/Soumeh/Principality-Next
+-r cog_requirements.txt
