@@ -1,0 +1,7 @@
+[project]
+name = "Number to Roman Numeral"
+description = "Convert arabic numbers to roman numbers using a command."
+version = "1.0"
+authors = [
+    { name = "Soumeh" }
+]

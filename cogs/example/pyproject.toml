@@ -1,0 +1,7 @@
+[project]
+name = "Example"
+description = "Example Module."
+version = "1.0"
+authors = [
+    { name = "Soumeh" }
+]

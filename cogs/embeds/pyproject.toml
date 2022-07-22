@@ -1,0 +1,7 @@
+[project]
+name = "Embeds"
+description = "Easily create embeded messages."
+version = "1.0"
+authors = [
+    { name = "Soumeh" }
+]

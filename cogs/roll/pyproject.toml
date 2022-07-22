@@ -1,0 +1,7 @@
+[project]
+name = "Roll"
+description = "Roll a questionably sized die."
+version = "1.0"
+authors = [
+    { name = "Soumeh" }
+]

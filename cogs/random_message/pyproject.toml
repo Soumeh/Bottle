@@ -1,0 +1,7 @@
+[project]
+name = "Random Message"
+description = "Get a random message from a specific channel."
+version = "1.0"
+authors = [
+    { name = "Soumeh" }
+]

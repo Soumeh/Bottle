@@ -1,0 +1,7 @@
+[project]
+name = "Help"
+description = "Advanced /help command."
+version = "0.1"
+authors = [
+    { name = "Soumeh" }
+]

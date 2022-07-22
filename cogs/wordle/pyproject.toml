@@ -1,0 +1,7 @@
+[project]
+name = "Wordle"
+description = "Play wordle on Discord."
+version = "1.0"
+authors = [
+    { name = "Soumeh" }
+]

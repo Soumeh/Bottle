@@ -1,0 +1,7 @@
+[project]
+name = "Embed Links"
+description = "Automatically embeds any discord message links posted in a channel."
+version = "1.0"
+authors = [
+    { name = "Soumeh" }
+]

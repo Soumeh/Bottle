@@ -1,0 +1,7 @@
+[project]
+name = "Insult Generator"
+description = "Advanced insult generator, with procedural wording and spelling mistakes."
+version = "1.0"
+authors = [
+    { name = "Soumeh" }
+]

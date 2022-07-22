@@ -1,0 +1,7 @@
+[project]
+name = "Profile Picture"
+description = "Get a discord user's profile picture easily."
+version = "1.0"
+authors = [
+    { name = "Soumeh" }
+]
