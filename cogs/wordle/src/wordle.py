@@ -95,7 +95,7 @@ The letter **U** is not in the word in any spot.
             for emoji in emojis:
                 self.emoji_map[emoji.name] = str(emoji)
 
-    @Cog.slash_command(guild_ids=[802577295960571907, 418105205100642315, 292703237755240448])
+    @Cog.slash_command()
     async def wordle(self, ctx):
         pass
 

@@ -15,7 +15,7 @@ class Example(Cog):
     async def ready(self):
         print('Async Loaded!')
 
-    @Cog.slash_command(guild_ids=[802577295960571907])
+    @Cog.slash_command()
     async def test(self, ctx):
         await ctx.response.send_message(f"This value is {str(self.config['is_true'])}")
 

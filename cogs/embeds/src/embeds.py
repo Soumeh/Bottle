@@ -11,7 +11,7 @@ class Embeds(Cog):
         embeds: Dict[str, Literal[Dict, List[Dict]]] = ConfigOption([{'embed_id': {"description": "This is an example embed."}}])
         channel_embeds: Dict[str, Literal[Dict, List[Dict]]] = ConfigOption([{'0000000000000000': {"description": "This is an example channel embed."}}])
 
-    @Cog.message_command("Get Embed JSON", guild_ids=[802577295960571907])
+    @Cog.message_command("Get Embed JSON")
     async def json_from_message(self, ctx, message):
         embeds = message.embeds or []
         for embed in embeds:
@@ -19,7 +19,7 @@ class Embeds(Cog):
             message = f'```json\n{json}\n```'
             return await ctx.response.send_message(embed=Embed(description=""), ephemeral=True)
 
-    @Cog.slash_command(guild_ids=[802577295960571907])
+    @Cog.slash_command()
     async def embed(self, ctx):
         pass
 

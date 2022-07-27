@@ -22,7 +22,7 @@ class Embed_Links(Cog):
                             return await message.reply(embeds=result)
                         await message.reply(embed=result)
     
-    @Cog.message_command(name="Embed Message", guild_ids=[802577295960571907, 418105205100642315])
+    @Cog.message_command(name="Embed Message")
     async def embed_message(self, ctx, message):
         print(message)
         embed = message_as_embed(message)

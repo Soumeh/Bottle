@@ -5,7 +5,7 @@ from random import choice
 
 class Roll(Cog):
 
-    @Cog.slash_command(guild_ids=[802577295960571907, 418105205100642315])
+    @Cog.slash_command()
     async def roll(self, ctx,
         number: int = SlashOption(description="What number to roll.", min_value=1, max_value=1000),
         multiplier: Optional[int] = SlashOption(description="How many times to roll.", min_value=1, max_value=30, default=1)

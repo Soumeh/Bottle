@@ -35,7 +35,7 @@ class Insult_Generator(Cog):
     for key, value in insults.items():
         unsafe_insults[key].extend(value)
 
-    @Cog.slash_command(guild_ids=[802577295960571907, 418105205100642315, 964251827099033610, 292703237755240448])
+    @Cog.slash_command()
     async def insult(self, ctx, 
         safe: bool = SlashOption(description="Whether or not to limit insult vocabulary to be PG-13.", default=True)
     ):

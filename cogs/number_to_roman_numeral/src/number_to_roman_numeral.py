@@ -12,7 +12,7 @@ class Number_To_RoNum(Cog):
     '1': '₁', '2': '₂', '3': '₃', '4': '₄', '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉', '0': '₀'
     }
 
-    @Cog.slash_command(guild_ids=[802577295960571907, 418105205100642315])
+    @Cog.slash_command()
     async def ronum(self, ctx,
         number: int = SlashOption(description="What number will be converted to a roman numeral", min_value=1),
         full: bool = SlashOption(description="Whether or not to return a possibly lengthy roman numeral", default=False, required=False)

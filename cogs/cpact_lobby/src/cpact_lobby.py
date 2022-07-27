@@ -12,7 +12,7 @@ class Counterpact_Status(Cog):
     async def ready(self):
         self.cpact_lobby = Counterpact_Lobby(self.config.lobby_ip, self.config.lobby_port)
 
-    @Cog.slash_command(guild_ids=[418105205100642315, 964251827099033610, 971681845659959349])
+    @Cog.slash_command()
     async def lobby(self, ctx):
 
         self.cpact_lobby.refresh()

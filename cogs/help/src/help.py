@@ -10,17 +10,19 @@ class Help(Cog):
     async def ready(self):
         self.cog_pages = self._split_every(list(self.bot.cogs.keys()), self.config.modules_per_page)
 
-    @Cog.slash_command(description="Bring up... idk, fuck", guild_ids=[802577295960571907])
+    @Cog.slash_command()
     async def help(self, ctx,
         cog: str = SlashOption(description="What Cog to get help for")
     ):
+        "Bring up... idk"
         cog = cog.replace(' ', '_')
         await ctx.send(embed=self.cog_menu(page), ephemeral=False)
 
-    @Cog.slash_command(description="List and explain Cogs", guild_ids=[802577295960571907])
+    @Cog.slash_command()
     async def cogs(self, ctx, 
         page: int = SlashOption(description='What page of the modules to display', default=1)
     ):
+        """List and explain Cogs"""
         await ctx.send(embed=self.cog_list(page), ephemeral=False)
     
     def cog_menu(self, cog: Cog) -> Embed:

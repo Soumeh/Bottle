@@ -8,7 +8,7 @@ from principality.utils import message_as_embed
 
 class Random_Message(Cog):
 
-    @Cog.slash_command(guild_ids=[802577295960571907, 418105205100642315])
+    @Cog.slash_command()
     async def randmsg(self, ctx,
         channel: GuildChannel = SlashOption(description="What channel to get the message from.", channel_types=[ChannelType.text])
     ):
