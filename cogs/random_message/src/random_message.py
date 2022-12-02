@@ -1,10 +1,10 @@
-from principality.cog import  Cog, SlashOption
+from cog import  Cog, SlashOption
 from nextcord.abc import GuildChannel
 from nextcord import Embed, ChannelType
 
 from datetime import timedelta, datetime
 from random import randint
-from principality.utils import message_as_embed
+from utils import message_as_embed
 
 class Random_Message(Cog):
 

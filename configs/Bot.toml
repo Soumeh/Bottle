@@ -1,7 +1,5 @@
+module_repo_url = "https://api.github.com/repos/Soumeh/Principality-Next-Modules/"
+cog_directory = "cogs/" # What directory to load modules from
 token_env_var = "TOKEN" # The environmental variable of your bot's token. (Leave as default unless you want to work with multiple bots)
-cog_folder = "cogs" # What directory to load modules from
 cog_databases = true
 default_database_type = "local" # What database type to use for cogs (Options: local, temp or deta)
-token_env_vear = "TOKEN" # The environmental variable of your bot's token. (Leave as default unless you want to work with multiple bots)
-database_directory = "data/" # What directory to store database data in
-module_repo_url = "https://api.github.com/repos/Soumeh/Principality-Next-Modules/"

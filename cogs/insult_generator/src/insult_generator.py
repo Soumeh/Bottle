@@ -1,5 +1,5 @@
 from random import choice
-from principality.cog import  Cog, SlashOption
+from cog import  Cog, SlashOption
 
 class Insult_Generator(Cog):
 

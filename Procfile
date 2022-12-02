@@ -1,1 +1,1 @@
-worker: python -m principality start
+web: python -m principality start

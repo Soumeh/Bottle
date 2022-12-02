@@ -1,0 +1,1 @@
+lobby_url = "http://52.73.166.2:21065" # The URL to fetch lobby data from. Currently, the Counterpact lobby's information is private, so you will have to ask The Developer for help. (Unless you are The Developer, in which case, you probably know what to do)

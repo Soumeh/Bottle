@@ -1,4 +1,4 @@
-from principality.cog import  Cog, ConfigOption, SlashOption
+from cog import  Cog, ConfigOption, SlashOption
 from nextcord import Embed
 
 class Help(Cog):
@@ -7,7 +7,7 @@ class Help(Cog):
         information: str = ConfigOption('test', "Write your bot's basic information here.")
         modules_per_page: int = ConfigOption(6, "How many modules should be displayed per page?")
 
-    async def ready(self):
+    async def ready(self, bot):
         self.cog_pages = self._split_every(list(self.bot.cogs.keys()), self.config.modules_per_page)
 
     @Cog.slash_command()

@@ -2,8 +2,8 @@ from nextcord import Embed, Interaction
 from typing import List, Dict, Literal
 from json import loads, dumps, JSONDecodeError
 
-from principality.cog import Cog, ConfigOption, SlashOption
-from principality.utils import url_to_json
+from cog import Cog, ConfigOption, SlashOption
+from utils import url_to_json
 
 class Embeds(Cog):
 

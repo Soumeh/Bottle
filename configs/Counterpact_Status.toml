@@ -1,2 +1,0 @@
-lobby_ip = "" # The IP to fetch lobby data from. Currently, the Counterpact lobby's information is private, so you will have to ask the developer for help. (Unless you are the developer, in which case, you probably know what to do)
-lobby_port = 0 # Refer to comment above.

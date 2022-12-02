@@ -1,8 +1,8 @@
 import base64
 from random import choice
 from nextcord import ChannelType, Embed
-from principality.cog import  Cog, ConfigOption, SlashOption
-from principality.utils import url_to_json
+from cog import  Cog, ConfigOption, SlashOption
+from utils import url_to_json
 
 class Wordle(Cog):
 
@@ -86,7 +86,7 @@ The letter **U** is not in the word in any spot.
 
     # utils end
 
-    async def ready(self):
+    async def ready(self, bot):
         if not hasattr(self, 'words'): self.words = url_to_json(self.config.words_url)
 
         for id in [936590443418898432, 936589817410629653, 936597076278665246]:

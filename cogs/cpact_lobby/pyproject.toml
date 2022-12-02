@@ -1,12 +1,11 @@
 [project]
 name = "Counterpact-Lobby"
 description = "Display a lobby preview for Counterpact."
-version = "1.0"
+version = "1.1"
 authors = [
     { name = "Soumeh" }
 ]
 
 dependencies = [
-    "requests",
-    "counterpact-watcher @ git+https://github.com/Soumeh/Counterpact-Watcher",
+    "counterpact-watcher @ git+https://github.com/Soumeh/Counterpact-Watcher"
 ]

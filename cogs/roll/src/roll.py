@@ -1,5 +1,5 @@
 from typing import Optional
-from principality.cog import  Cog, SlashOption
+from cog import  Cog, SlashOption
 from nextcord import Embed
 from random import choice
 

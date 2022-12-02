@@ -1,4 +1,4 @@
-from principality.cog import  Cog, SlashOption
+from cog import  Cog, SlashOption
 from nextcord import Embed, errors
 
 class Number_To_RoNum(Cog):

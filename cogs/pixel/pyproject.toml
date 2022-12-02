@@ -1,0 +1,11 @@
+[project]
+name = "Pixel Utilities"
+description = "Provides utility commands for sharing pixel art"
+version = "1.0"
+authors = [
+    { name = "Soumeh" }
+]
+
+dependencies = [
+    "pillow"
+]

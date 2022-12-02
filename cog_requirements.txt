@@ -1,1 +1,3 @@
 git+https://github.com/Soumeh/Counterpact-Watcher
+pillow
+requests

@@ -1,0 +1,6 @@
+config_directory = "configs/"
+cog_directory = "cogs/"
+data_directory = "data/"
+cog_databases = true
+default_database_type = "local"
+token_env_var = "TOKEN"
